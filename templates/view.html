@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+    
+    <title>view</title>
+    <link rel="stylesheet" href="../static/styles.css">
+</head>
+<body>
+    <div class="banner">
+        <img src="../static/images/qis_banner.png" alt="noimg">
+    </div> 
+    <div class="view">
+        <table>
+            <thead>
+                <tr>
+                    <td>ID</td>
+                    <td>Name</td>
+                    <td>Email</td>
+                    <td>Phone</td>
+                    <td>rank</td>
+                    <td>percentage</td>
+                    <td>course</td>
+                    <td>address</td>
+                </tr>
+            </thead>
+            <tbody>
+                {% for user in output %}
+                <tr>
+                    
+                    <td>{{user.ID}}</td>
+                    <td>{{user.Name}}</td>
+                    <td>{{user.email}}</td>
+                    <td>{{user.Phone}}</td>
+                    <td>{{user.Percentage}}</td>
+                    <td>{{user.Rank}}</td>
+                    <td>{{user.Course}}</td>
+                    <td>{{user.Address}}</td>
+                    
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
