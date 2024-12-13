@@ -120,8 +120,12 @@ color: aliceblue;
 }
 .entries{
     float: left;
-    margin: 5% 0% 0% 35%;
+    margin: 5% 0% 5% 35%;
     width: 30%;
+}
+.entries h1{
+    text-align: center;
+
 }
 .entries input,.entries button{
     float: left;
@@ -129,6 +133,7 @@ color: aliceblue;
     margin: 3% 0% 0% 5%;
     font-size: 20px;
     border: 1.5px solid black;
+    color: aliceblue;
 }
 
 .view table{
@@ -148,4 +153,44 @@ color: aliceblue;
     border: 2px solid black;
   
     text-align: center;
+}
+.update{
+    float: left;
+    width:30%;
+    margin: 10% 0% 0% 35%;
+}
+.update h1{
+    text-align: center;
+}
+.update input,.update select,.update button{
+    float: left;
+    width: 90%;
+    border: 1.5px solid black;
+    margin: 3% 0% 0% 5%;
+    padding: 1%;
+    font-size: 20px;
+}
+.delete{
+    float: left;
+    width:30%;
+    margin: 10% 0% 0% 35%;
+}
+.delete h1{
+    text-align: center;
+}
+.delete input,.delete button{
+    float: left;
+    width: 90%;
+    border: 1.5px solid black;
+    margin: 3% 0% 0% 5%;
+    padding: 1%;
+    font-size: 20px;
+}
+.bottom_div{
+    float: left;
+    width: 100%;
+    background-color: rgb(52, 46, 46);
+    margin: 0.3% 0% 0% 0%;
+    text-align: center;
+    color: aliceblue;
 }
